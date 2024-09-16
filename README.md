@@ -1,6 +1,8 @@
 # Pokédex
-
 O **Pokédex** é um aplicativo feito em Python que permite ao usuário buscar informações detalhadas sobre os Pokémon. Utilizando a API pública do Pokémon, o aplicativo exibe dados como o nome, ID, altura, peso, tipos, habilidades e uma imagem do Pokémon pesquisado. O projeto foi desenvolvido usando bibliotecas como `tkinter`, `requests`, e `Pillow`, e pode ser executado tanto em ambientes com Python instalado quanto em executáveis gerados via `cx_Freeze`.
+
+## Releases
+Para acessar a versão mais recente do aplicativo, visite a [página de releases](https://github.com/henrilima/pokedex/releases) do projeto. Lá você encontrará os arquivos ZIP para download e as notas de versão associadas.
 
 ## Funcionalidades
 - Buscar informações de Pokémon por nome ou ID.
@@ -11,14 +13,12 @@ O **Pokédex** é um aplicativo feito em Python que permite ao usuário buscar i
 ## Como usar
 1. **Instalar dependências:**
    Se você estiver rodando o código diretamente em Python, certifique-se de instalar as dependências listadas no arquivo `requirements.txt`:
-
    ```bash
    pip install -r requirements.txt
    ```
 
 2. **Executar o projeto:**
    Execute o arquivo `main.py` para iniciar o aplicativo:
-
    ```bash
    python main.py
    ```
@@ -29,18 +29,15 @@ Se você deseja rodar o aplicativo em máquinas que não tenham o Python instala
 ### Como gerar o executável:
 1. **Instalar o `cx_Freeze`:**
    Certifique-se de que o `cx_Freeze` está instalado no seu ambiente virtual:
-
    ```bash
    pip install cx_Freeze
    ```
 
 2. **Rodar o script de build:**
    Após configurar o `setup.py`, execute o comando:
-
    ```bash
    python setup.py build
    ```
-
    Isso irá gerar uma pasta `build` contendo o executável.
 
 ### Limitações do `cx_Freeze`
