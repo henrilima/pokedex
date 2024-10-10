@@ -2,7 +2,7 @@ from scripts import *
 
 # CRIANDO E CONFIGURANDO A TELA
 root = tk.Tk()
-root.geometry('350x500')
+root.geometry('350x540')
 root.title('Pokédex')
 root.iconbitmap('./assets/pokeball.ico')
 root.resizable(False, False)
