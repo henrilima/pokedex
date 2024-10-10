@@ -6,7 +6,7 @@ Para acessar a versão mais recente do aplicativo, visite a [página de releases
 
 ## Funcionalidades
 - Buscar informações de Pokémon por nome ou ID.
-- Exibir detalhes do Pokémon, incluindo ID, altura, peso, tipos e habilidades.
+- Exibir detalhes do Pokémon, incluindo ID, altura, peso, tipos, descrição da espécie e habilidades.
 - Mostrar a imagem oficial do Pokémon.
 - Interface gráfica simples e intuitiva criada com `tkinter`.
 
